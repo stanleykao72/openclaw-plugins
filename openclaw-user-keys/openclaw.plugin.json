@@ -1,0 +1,5 @@
+{
+  "id": "user-keys",
+  "name": "User Keys",
+  "description": "Per-user encrypted API key and OAuth token management. Lets each chat user bring their own AI provider credentials (BYOK)."
+}

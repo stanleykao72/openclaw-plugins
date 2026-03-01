@@ -1,0 +1,15 @@
+{
+  "name": "@openclaw/user-keys",
+  "version": "0.1.0",
+  "description": "Per-user encrypted API key management for OpenClaw",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openclaw": "*"
+  }
+}
