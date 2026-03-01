@@ -1,0 +1,13 @@
+{
+  "name": "@openclaw/odoo",
+  "version": "0.1.0",
+  "description": "Odoo integration for OpenClaw — user binding, MCP tool proxy",
+  "type": "module",
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openclaw": "*"
+  }
+}
