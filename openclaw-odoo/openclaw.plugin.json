@@ -1,5 +1,10 @@
 {
   "id": "odoo",
   "name": "Odoo Integration",
-  "description": "Bind OpenClaw chat users to Odoo accounts and proxy MCP tools with per-user API keys."
+  "description": "Bind OpenClaw chat users to Odoo accounts and proxy MCP tools with per-user API keys.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
 }
