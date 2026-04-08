@@ -1,0 +1,18 @@
+# Vendored upstream plugin (has its own git repo + node_modules)
+mcp-client/
+
+# Build artifacts
+node_modules/
+dist/
+build/
+*.log
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+*.swp
+*~
