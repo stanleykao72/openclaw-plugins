@@ -25,7 +25,7 @@ When the user invokes `/claude_code`, parse their message and run the dispatch s
 
 2. Determine the working directory:
    - If user explicitly specifies `--workdir`, use that path.
-   - If the prompt mentions openclaw or openclaw-plugins, use `/home/ubuntu/openclaw` or `/home/ubuntu/openclaw-plugins` accordingly.
+   - If the prompt mentions openclaw or goclaw-plugins, use `/home/ubuntu/openclaw` or `/home/ubuntu/goclaw-plugins` accordingly.
    - Otherwise, default to `/home/ubuntu/odoo_dev/user` (the Odoo custom modules directory).
 
 3. **Determine notification channel and target** based on the message source:
@@ -37,7 +37,7 @@ When the user invokes `/claude_code`, parse their message and run the dispatch s
 4. Run the dispatch script in the background using the `exec` tool:
 
 ```bash
-nohup /home/ubuntu/openclaw-plugins/hooks/dispatch-claude-code.sh \
+nohup /home/ubuntu/goclaw-plugins/hooks/dispatch-claude-code.sh \
   -p "<prompt>" \
   -n "<name>" \
   --channel "<channel>" \

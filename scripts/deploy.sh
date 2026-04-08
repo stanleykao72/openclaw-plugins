@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SRC="/home/ubuntu/openclaw-plugins"
-DEST="/home/ubuntu/.openclaw"
+SRC="/home/ubuntu/goclaw-plugins"
+DEST="/home/ubuntu/.goclaw"
 
 # ── Colors ──
 GREEN='\033[0;32m'

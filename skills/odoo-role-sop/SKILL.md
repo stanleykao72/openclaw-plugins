@@ -130,7 +130,7 @@ metadata: {"openclaw":{"emoji":"📋"}}
 
 1. 在 `odoo-claude-code/universal/skills/odoo-role-sop/references/` 建立或更新對應的 reference 檔案
 2. 更新 SKILL.md 的角色總覽和 E2E 場景索引
-3. 執行 `openclaw-plugins/scripts/deploy.sh skills` 同步到 `~/.openclaw/`
+3. 執行 `goclaw-plugins/scripts/deploy.sh skills` 同步到 `~/.goclaw/`
 
 ### E2E 場景檔案位置
 

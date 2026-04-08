@@ -10,7 +10,7 @@ WORKDIR="/home/ubuntu/odoo_dev/user"
 if [ "$1" = "--repo" ]; then
     case "$2" in
         openclaw)  WORKDIR="/home/ubuntu/openclaw" ;;
-        plugins)   WORKDIR="/home/ubuntu/openclaw-plugins" ;;
+        plugins)   WORKDIR="/home/ubuntu/goclaw-plugins" ;;
         *)         WORKDIR="$2" ;;
     esac
     shift 2

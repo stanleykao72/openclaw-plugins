@@ -38,7 +38,7 @@
   "skills": {
     "load": {
       "extraDirs": [
-        "/home/ubuntu/openclaw-plugins/finance/skills"
+        "/home/ubuntu/goclaw-plugins/finance/skills"
       ]
     }
   }
