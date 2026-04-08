@@ -1,0 +1,20 @@
+{
+  "name": "@openclaw/odoo-discuss",
+  "version": "0.1.0",
+  "description": "Odoo Discuss channel plugin for OpenClaw",
+  "type": "module",
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "channel": {
+      "id": "odoo-discuss",
+      "label": "Odoo Discuss",
+      "selectionLabel": "Odoo Discuss (self-hosted)",
+      "aliases": ["odoo"],
+      "order": 70
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openclaw": "*"
+  }
+}

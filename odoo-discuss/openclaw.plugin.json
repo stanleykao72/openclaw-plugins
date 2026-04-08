@@ -1,0 +1,9 @@
+{
+  "id": "odoo-discuss",
+  "channels": ["odoo-discuss"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
